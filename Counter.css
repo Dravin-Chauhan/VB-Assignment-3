@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cont{
+    background: bisque;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: hotpink;
+    margin: auto;
+    text-align: center;
+}
+.square{
+    margin: auto;
+    margin-top: -115px;
+    background: hotpink;
+    height: 310px;
+    width: 310px;
+    box-shadow: goldenrod;
+}
+#counter{
+    position: relative;
+    display: grid;
+    color: lavenderblush;
+    font-weight: 1000;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 2px;
+}
+.btn{
+    justify-content: center;
+    color: honeydew;
+    margin-top: 40px;
+}
+.btn .increase:hover {
+    background: darksalmon;
+    cursor: pointer;
+}
+.btn .reset:hover {
+    background: darksalmon;
+    cursor: pointer;
+}
+.btn .decrease:hover {
+    background: darksalmon;
+    cursor: pointer;
+}
+.increase {
+    margin-left: 60px;
+    margin-top: 0px;
+    padding: 1px;
+    width: 45px;
+    border: 2.5px solid purple;
+    border-radius: 2.5px;
+    background: rgba(22, 20, 20, 0.63);
+    color: whitesmoke;
+    font-size: 20px;
+    transition-duration: 0.9s;
+}
+.reset{
+    margin: 5px;
+    margin-top: 0px;
+    padding: 1px;
+    width: 75px;
+    border: 2.5px solid purple;
+    border-radius: 2.5px;
+    background: rgba(22, 20, 20, 0.63);
+    color: whitesmoke;
+    font-size: 20px;
+    transition-duration: 0.9s;
+}
+.decrease{
+    margin: 5px;
+    margin-top: 0px;
+    padding: 1px;
+    width: 45px;
+    border: 2.5px solid purple;
+    border-radius: 2.5px;
+    background: rgba(22, 20, 20, 0.63);
+    color: whitesmoke;
+    font-size: 20px;
+    transition-duration: 0.9s;
+}
